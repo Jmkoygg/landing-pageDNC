@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNC Dinamica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/logo-dnc.svg">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./imgs/logo-dnc.svg" alt="dnc"></a>
+        <h1>Dê os primeiros passos da<br>sua carreira em Tecnologia</h1>
+        <h2>Inscreva-se no curso gratuito de Introdução à<br>Tecnologia da DNC School
+            e aprenda os principais<br>fundamentos 
+            para construir experiências efetivas.</h2>
+    </header>
+    <section id="mid">
+    <div id="mid-container">
+        <div id="mid1"><img src="./imgs/certificado.svg" alt=""> <span>Certificado de conclusão</span></div>
+        <div id="mid1"><img src="./imgs/relogio.svg" alt=""> <span>4 horas de conteúdo</span></div>
+        <div id="mid1"><img src="./imgs/cam.svg" alt=""> <span>Aulas online gravadas</span></div>
+    </div>
+    </section>
+    <section id="video-container">
+        <div id="video"><iframe width="534" height="300" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div id="videotext"><h1>Aprenda com especialistas e <br>comece seu primeiro projeto</h1> <p>Conheça o processo de desenvolvimento e entenda como utilizar<br>os principais métodos e ferramentas da área para resolver<br>problemas complexos. <br> <br>Conquiste seu certificado e desenvolva um projeto prático para<br>aplicar seus conhecimentos.</p></div>
+    </section>
+    <section class="carrossel">
+            <div>
+        <h1>Mais de 500 alunos já iniciaram seus estudos</h1>
+        <div class="card-container">
+        <div id="setacontainer"><img class="seta" id="seta2" onclick="Rolaresquerda()" src="imgs/cards/seta2.svg" alt=""></div>
+        <img id="leo" src="imgs/cards/leonardo.svg" alt="">
+        <img id="sam" src="imgs/cards/samanta.svg" alt="">
+        <img id="bru" src="imgs/cards/bruna.svg" alt="">
+        <img class="seta" id="seta" onclick="Rolardireita()" src="./imgs/cards/seta.svg" alt="">
+        </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+    <footer>
+        <div><h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1></div>
+        <form action="https://api.sheetmonkey.io/form/jLXmVdYAvCNG7ds5ar5ezW" method="post">
+    <div class="inputcontainer">
+        <input type="text" placeholder="Nome" name="Name" required>
+        <input type="email" placeholder="Email" name="Email" required>
+        <input type="number" placeholder="Número" name="Number" required>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+    </div>
+    <button type="submit">Acesse a ementa grátis</button>
+    </form>
+    </footer>
+</body>
+</html>
